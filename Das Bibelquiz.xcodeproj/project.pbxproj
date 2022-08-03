@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00229820289B04A3006A6129 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022981F289B04A3006A6129 /* Tests_iOS.swift */; };
+		00229822289B04A3006A6129 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00229821289B04A3006A6129 /* Tests_iOSLaunchTests.swift */; };
+		0022982C289B04A3006A6129 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022982B289B04A3006A6129 /* Tests_macOS.swift */; };
+		0022982E289B04A3006A6129 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022982D289B04A3006A6129 /* Tests_macOSLaunchTests.swift */; };
+		0022982F289B04A3006A6129 /* Das_BibelquizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00229807289B04A1006A6129 /* Das_BibelquizApp.swift */; };
+		00229830289B04A3006A6129 /* Das_BibelquizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00229807289B04A1006A6129 /* Das_BibelquizApp.swift */; };
+		00229831289B04A3006A6129 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00229808289B04A1006A6129 /* ContentView.swift */; };
+		00229832289B04A3006A6129 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00229808289B04A1006A6129 /* ContentView.swift */; };
+		00229833289B04A3006A6129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00229809289B04A3006A6129 /* Assets.xcassets */; };
+		00229834289B04A3006A6129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00229809289B04A3006A6129 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0022981C289B04A3006A6129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00229802289B04A1006A6129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0022980D289B04A3006A6129;
+			remoteInfo = "Das Bibelquiz (iOS)";
+		};
+		00229828289B04A3006A6129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00229802289B04A1006A6129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00229813289B04A3006A6129;
+			remoteInfo = "Das Bibelquiz (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00229807289B04A1006A6129 /* Das_BibelquizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Das_BibelquizApp.swift; sourceTree = "<group>"; };
+		00229808289B04A1006A6129 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00229809289B04A3006A6129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0022980E289B04A3006A6129 /* Das Bibelquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Das Bibelquiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00229814289B04A3006A6129 /* Das Bibelquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Das Bibelquiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00229816289B04A3006A6129 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		0022981B289B04A3006A6129 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0022981F289B04A3006A6129 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		00229821289B04A3006A6129 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		00229827289B04A3006A6129 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0022982B289B04A3006A6129 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		0022982D289B04A3006A6129 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0022980B289B04A3006A6129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00229811289B04A3006A6129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00229818289B04A3006A6129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00229824289B04A3006A6129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00229801289B04A1006A6129 = {
+			isa = PBXGroup;
+			children = (
+				00229806289B04A1006A6129 /* Shared */,
+				00229815289B04A3006A6129 /* macOS */,
+				0022981E289B04A3006A6129 /* Tests iOS */,
+				0022982A289B04A3006A6129 /* Tests macOS */,
+				0022980F289B04A3006A6129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00229806289B04A1006A6129 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				00229807289B04A1006A6129 /* Das_BibelquizApp.swift */,
+				00229808289B04A1006A6129 /* ContentView.swift */,
+				00229809289B04A3006A6129 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0022980F289B04A3006A6129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0022980E289B04A3006A6129 /* Das Bibelquiz.app */,
+				00229814289B04A3006A6129 /* Das Bibelquiz.app */,
+				0022981B289B04A3006A6129 /* Tests iOS.xctest */,
+				00229827289B04A3006A6129 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00229815289B04A3006A6129 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				00229816289B04A3006A6129 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		0022981E289B04A3006A6129 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0022981F289B04A3006A6129 /* Tests_iOS.swift */,
+				00229821289B04A3006A6129 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		0022982A289B04A3006A6129 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0022982B289B04A3006A6129 /* Tests_macOS.swift */,
+				0022982D289B04A3006A6129 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0022980D289B04A3006A6129 /* Das Bibelquiz (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00229837289B04A3006A6129 /* Build configuration list for PBXNativeTarget "Das Bibelquiz (iOS)" */;
+			buildPhases = (
+				0022980A289B04A3006A6129 /* Sources */,
+				0022980B289B04A3006A6129 /* Frameworks */,
+				0022980C289B04A3006A6129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Das Bibelquiz (iOS)";
+			productName = "Das Bibelquiz (iOS)";
+			productReference = 0022980E289B04A3006A6129 /* Das Bibelquiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00229813289B04A3006A6129 /* Das Bibelquiz (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0022983A289B04A3006A6129 /* Build configuration list for PBXNativeTarget "Das Bibelquiz (macOS)" */;
+			buildPhases = (
+				00229810289B04A3006A6129 /* Sources */,
+				00229811289B04A3006A6129 /* Frameworks */,
+				00229812289B04A3006A6129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Das Bibelquiz (macOS)";
+			productName = "Das Bibelquiz (macOS)";
+			productReference = 00229814289B04A3006A6129 /* Das Bibelquiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0022981A289B04A3006A6129 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0022983D289B04A3006A6129 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				00229817289B04A3006A6129 /* Sources */,
+				00229818289B04A3006A6129 /* Frameworks */,
+				00229819289B04A3006A6129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0022981D289B04A3006A6129 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 0022981B289B04A3006A6129 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		00229826289B04A3006A6129 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00229840289B04A3006A6129 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				00229823289B04A3006A6129 /* Sources */,
+				00229824289B04A3006A6129 /* Frameworks */,
+				00229825289B04A3006A6129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00229829289B04A3006A6129 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 00229827289B04A3006A6129 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00229802289B04A1006A6129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0022980D289B04A3006A6129 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					00229813289B04A3006A6129 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					0022981A289B04A3006A6129 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 0022980D289B04A3006A6129;
+					};
+					00229826289B04A3006A6129 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 00229813289B04A3006A6129;
+					};
+				};
+			};
+			buildConfigurationList = 00229805289B04A1006A6129 /* Build configuration list for PBXProject "Das Bibelquiz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00229801289B04A1006A6129;
+			productRefGroup = 0022980F289B04A3006A6129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0022980D289B04A3006A6129 /* Das Bibelquiz (iOS) */,
+				00229813289B04A3006A6129 /* Das Bibelquiz (macOS) */,
+				0022981A289B04A3006A6129 /* Tests iOS */,
+				00229826289B04A3006A6129 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0022980C289B04A3006A6129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00229833289B04A3006A6129 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00229812289B04A3006A6129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00229834289B04A3006A6129 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00229819289B04A3006A6129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00229825289B04A3006A6129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0022980A289B04A3006A6129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00229831289B04A3006A6129 /* ContentView.swift in Sources */,
+				0022982F289B04A3006A6129 /* Das_BibelquizApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00229810289B04A3006A6129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00229832289B04A3006A6129 /* ContentView.swift in Sources */,
+				00229830289B04A3006A6129 /* Das_BibelquizApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00229817289B04A3006A6129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00229822289B04A3006A6129 /* Tests_iOSLaunchTests.swift in Sources */,
+				00229820289B04A3006A6129 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00229823289B04A3006A6129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0022982E289B04A3006A6129 /* Tests_macOSLaunchTests.swift in Sources */,
+				0022982C289B04A3006A6129 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0022981D289B04A3006A6129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0022980D289B04A3006A6129 /* Das Bibelquiz (iOS) */;
+			targetProxy = 0022981C289B04A3006A6129 /* PBXContainerItemProxy */;
+		};
+		00229829289B04A3006A6129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00229813289B04A3006A6129 /* Das Bibelquiz (macOS) */;
+			targetProxy = 00229828289B04A3006A6129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00229835289B04A3006A6129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00229836289B04A3006A6129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		00229838289B04A3006A6129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.webdad.Das-Bibelquiz";
+				PRODUCT_NAME = "Das Bibelquiz";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00229839289B04A3006A6129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.webdad.Das-Bibelquiz";
+				PRODUCT_NAME = "Das Bibelquiz";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0022983B289B04A3006A6129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.webdad.Das-Bibelquiz";
+				PRODUCT_NAME = "Das Bibelquiz";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0022983C289B04A3006A6129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.webdad.Das-Bibelquiz";
+				PRODUCT_NAME = "Das Bibelquiz";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0022983E289B04A3006A6129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.webdad.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Das Bibelquiz (iOS)";
+			};
+			name = Debug;
+		};
+		0022983F289B04A3006A6129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.webdad.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Das Bibelquiz (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00229841289B04A3006A6129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.webdad.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Das Bibelquiz (macOS)";
+			};
+			name = Debug;
+		};
+		00229842289B04A3006A6129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.webdad.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Das Bibelquiz (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00229805289B04A1006A6129 /* Build configuration list for PBXProject "Das Bibelquiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00229835289B04A3006A6129 /* Debug */,
+				00229836289B04A3006A6129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00229837289B04A3006A6129 /* Build configuration list for PBXNativeTarget "Das Bibelquiz (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00229838289B04A3006A6129 /* Debug */,
+				00229839289B04A3006A6129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0022983A289B04A3006A6129 /* Build configuration list for PBXNativeTarget "Das Bibelquiz (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0022983B289B04A3006A6129 /* Debug */,
+				0022983C289B04A3006A6129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0022983D289B04A3006A6129 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0022983E289B04A3006A6129 /* Debug */,
+				0022983F289B04A3006A6129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00229840289B04A3006A6129 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00229841289B04A3006A6129 /* Debug */,
+				00229842289B04A3006A6129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00229802289B04A1006A6129 /* Project object */;
+}
