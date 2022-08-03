@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showWebView = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        WebView(url: URL(string: "https://dasbibelquiz.de")!)
     }
 }
 
