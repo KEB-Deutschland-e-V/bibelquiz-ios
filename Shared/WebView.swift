@@ -24,7 +24,7 @@ struct WebView: UIViewRepresentable {
 
         func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
                 if let url = navigationAction.request.url {
-                    if !url.host?.starts(with: "https://dasbibelquiz.de") {
+                    if !url.absoluteString.starts(with: "https://dasbibelquiz.de") {
                         UIApplication.shared.open(url)
                         decisionHandler(.cancel)
                         return
