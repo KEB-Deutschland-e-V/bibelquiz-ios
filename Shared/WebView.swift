@@ -46,8 +46,10 @@ struct WebView: UIViewRepresentable {
     func updateUIView(_ webView: WKWebView, context: Context) {
         let request = URLRequest(url: url)
         webView.navigationDelegate = context.coordinator
+        webView.customUserAgent = "bibelquiz-ios-app"
         webView.load(request)
         webView.allowsBackForwardNavigationGestures = true
+        
     }
     
 }
