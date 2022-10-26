@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Das_BibelquizApp: App {
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+            WindowGroup {
+                ContentView()
+            }
     }
 }

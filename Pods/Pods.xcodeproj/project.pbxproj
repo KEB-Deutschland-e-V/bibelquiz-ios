@@ -1,0 +1,956 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19DE1EC6ADBE7522A5EEFF7527DC35DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA3E26A1AEF56F90D3C76F6E63393C /* SystemConfiguration.framework */; };
+		1C6D5CDBF1D9E24909FBE9C750CA297C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1EF316EEA49712E2C3ADCDD7FA65D /* Reachability.swift */; };
+		2692429E12E6AA679A7766A493713C54 /* Pods-Das Bibelquiz (iOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3197F6573E5CD9FCAE817807FF3AFA /* Pods-Das Bibelquiz (iOS)-dummy.m */; };
+		3F5AB7AFFC9DA14DBAD745F7ABF5E129 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1EF316EEA49712E2C3ADCDD7FA65D /* Reachability.swift */; };
+		4204DC331771989F80004FEAD8BA28E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC42A44E2D7AAED5635736291023AD4C /* Foundation.framework */; };
+		4F6C074B7095E75C51B63A37E6031AD0 /* ReachabilitySwift-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D820365BBAFA155147224995B1F9CF3 /* ReachabilitySwift-iOS-dummy.m */; };
+		66C1671307C71FD51E464E633C54485E /* ReachabilitySwift-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8935D4B4527B9E5433F113F23FF9F00 /* ReachabilitySwift-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A0BF9784B751B51CAD6D320A229E89F /* Pods-Das Bibelquiz (macOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2566CDC7B40A312FF5BC85264AB88B4F /* Pods-Das Bibelquiz (macOS)-dummy.m */; };
+		7145D152C427B8C79132F69AF518E967 /* ReachabilitySwift-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D73E8F1636CE81EB0D5554C9AD683D6 /* ReachabilitySwift-macOS-dummy.m */; };
+		7771B2DAD89ACA7159DAB770C387BC08 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144426F8A5EC21BF5AD712FAD5D366D /* CoreTelephony.framework */; };
+		950722568F687875D69A988424FADAD4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45C69E84A2FCD38C7D42B2B165C83DE /* Cocoa.framework */; };
+		9F383D93676BF6D79A9B52FAF94983E8 /* Pods-Das Bibelquiz (macOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4667AE4988B35928901A0597002595A5 /* Pods-Das Bibelquiz (macOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0A295ED658EF3EEB578A0A04E484CCE /* Pods-Das Bibelquiz (iOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5E2ABFBD66E0C46ACD302DF00805E5 /* Pods-Das Bibelquiz (iOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B42150C21B0106FE612DC5929BD834F7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51AF27DF8E05E139014572D77DE6315 /* SystemConfiguration.framework */; };
+		BCD7C307763974C9D636104C56DB58C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC42A44E2D7AAED5635736291023AD4C /* Foundation.framework */; };
+		C04E7EB0297B20BC0685FB09DFF73439 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45C69E84A2FCD38C7D42B2B165C83DE /* Cocoa.framework */; };
+		EF60D2E3A1BD809E8E81774F3B97D103 /* ReachabilitySwift-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B128BC437597FACAA65BFA98D6D509 /* ReachabilitySwift-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D95AEE77936B13D0A6884E29ED8B286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FFA409136C5F70F4528378AB60E7DD;
+			remoteInfo = "ReachabilitySwift-iOS";
+		};
+		ED5F9E8C54A6FE7906D1783423CC5E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526B90E7930815058B22918B90BCCC3D;
+			remoteInfo = "ReachabilitySwift-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1045FC01ABAD5535B4505ACFFD613B8A /* ReachabilitySwift-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ReachabilitySwift-macOS.debug.xcconfig"; path = "../ReachabilitySwift-macOS/ReachabilitySwift-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		200C9C1FF819E09BC23D8FC2A174EE73 /* Pods-Das Bibelquiz (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Das Bibelquiz (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		22476E95EAA9CF0ED106BE728CA91B09 /* Pods-Das Bibelquiz (macOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Das Bibelquiz (macOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2566CDC7B40A312FF5BC85264AB88B4F /* Pods-Das Bibelquiz (macOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Das Bibelquiz (macOS)-dummy.m"; sourceTree = "<group>"; };
+		2AC0354E028AF32E7030D857EC289D29 /* Pods-Das Bibelquiz (iOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Das Bibelquiz (iOS)-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D820365BBAFA155147224995B1F9CF3 /* ReachabilitySwift-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-iOS-dummy.m"; sourceTree = "<group>"; };
+		3E5D8B8361889F537A4290E4C39AD8C5 /* Pods-Das Bibelquiz (iOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Das Bibelquiz (iOS).modulemap"; sourceTree = "<group>"; };
+		4021FEA3C5E55F18620F45D36CB136F5 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		434E81B1AFB9AC6F91F7FBA60A336986 /* ReachabilitySwift-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ReachabilitySwift-macOS-Info.plist"; path = "../ReachabilitySwift-macOS/ReachabilitySwift-macOS-Info.plist"; sourceTree = "<group>"; };
+		44CC04C51CDAD01A21D2F392BC526550 /* Pods-Das Bibelquiz (macOS)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Das Bibelquiz (macOS)-frameworks.sh"; sourceTree = "<group>"; };
+		4653E92F08AF6A92C97CF89E1AF36FEE /* ReachabilitySwift-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ReachabilitySwift-macOS-prefix.pch"; path = "../ReachabilitySwift-macOS/ReachabilitySwift-macOS-prefix.pch"; sourceTree = "<group>"; };
+		4667AE4988B35928901A0597002595A5 /* Pods-Das Bibelquiz (macOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Das Bibelquiz (macOS)-umbrella.h"; sourceTree = "<group>"; };
+		47BC9D73E46328711B157621C085631C /* Pods-Das Bibelquiz (iOS)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Das Bibelquiz (iOS)-frameworks.sh"; sourceTree = "<group>"; };
+		4D73E8F1636CE81EB0D5554C9AD683D6 /* ReachabilitySwift-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ReachabilitySwift-macOS-dummy.m"; path = "../ReachabilitySwift-macOS/ReachabilitySwift-macOS-dummy.m"; sourceTree = "<group>"; };
+		4EFAD11EE9057C60BA64214559A0F241 /* ReachabilitySwift-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ReachabilitySwift-iOS.modulemap"; sourceTree = "<group>"; };
+		58C070367326C27ECE4A652D852DE797 /* ReachabilitySwift-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "ReachabilitySwift-macOS.modulemap"; path = "../ReachabilitySwift-macOS/ReachabilitySwift-macOS.modulemap"; sourceTree = "<group>"; };
+		6AE65072C573C6BA3614B65AF726B07A /* Pods-Das Bibelquiz (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Das Bibelquiz (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		6F5E2ABFBD66E0C46ACD302DF00805E5 /* Pods-Das Bibelquiz (iOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Das Bibelquiz (iOS)-umbrella.h"; sourceTree = "<group>"; };
+		75B128BC437597FACAA65BFA98D6D509 /* ReachabilitySwift-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-iOS-umbrella.h"; sourceTree = "<group>"; };
+		76C7CE38C0E731056CCDC223BD5C614C /* Pods-Das Bibelquiz (macOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Das Bibelquiz (macOS)-Info.plist"; sourceTree = "<group>"; };
+		8911262446E2F3F2AA9445045C60505B /* ReachabilitySwift-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ReachabilitySwift-macOS.release.xcconfig"; path = "../ReachabilitySwift-macOS/ReachabilitySwift-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		98BD9F56975B8FE5BB50E5ABAD19DCC8 /* Pods-Das Bibelquiz (iOS) */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Das Bibelquiz (iOS)"; path = Pods_Das_Bibelquiz__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99AB573B9713A978360DDE11E08C87BB /* Pods-Das Bibelquiz (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Das Bibelquiz (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		9ABA6DF45CD8BD4204737FA8DE396C3D /* ReachabilitySwift-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ReachabilitySwift-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9D92F1774F9893A5F88DFC64E6F55DF3 /* Pods-Das Bibelquiz (macOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Das Bibelquiz (macOS).modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A51AF27DF8E05E139014572D77DE6315 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		A9EA3E26A1AEF56F90D3C76F6E63393C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		B144426F8A5EC21BF5AD712FAD5D366D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		B3C6FACAC95F965700AF140EB257A921 /* Pods-Das Bibelquiz (macOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Das Bibelquiz (macOS)-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA3197F6573E5CD9FCAE817807FF3AFA /* Pods-Das Bibelquiz (iOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Das Bibelquiz (iOS)-dummy.m"; sourceTree = "<group>"; };
+		CBB1EF316EEA49712E2C3ADCDD7FA65D /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		CC42A44E2D7AAED5635736291023AD4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7849E0051F959640B300CD14D256C4F /* ReachabilitySwift-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-iOS-prefix.pch"; sourceTree = "<group>"; };
+		E2556CB60261BFC3D08A49BD758BA216 /* Pods-Das Bibelquiz (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Das Bibelquiz (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		E29C73AEC8F75331F690F05A2BE3E540 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69EF2944DC0E2F3FED6405F5A173FCA /* ReachabilitySwift-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ReachabilitySwift-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E94B7D097D33C01BA1A11DEDC939832E /* Pods-Das Bibelquiz (iOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Das Bibelquiz (iOS)-Info.plist"; sourceTree = "<group>"; };
+		EACD90DDB7EB28811C8B7CEBAF4663F8 /* ReachabilitySwift-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-iOS-Info.plist"; sourceTree = "<group>"; };
+		F45C69E84A2FCD38C7D42B2B165C83DE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		F8935D4B4527B9E5433F113F23FF9F00 /* ReachabilitySwift-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ReachabilitySwift-macOS-umbrella.h"; path = "../ReachabilitySwift-macOS/ReachabilitySwift-macOS-umbrella.h"; sourceTree = "<group>"; };
+		FA47CA381AE0F35E4899B9EF8AB71209 /* Pods-Das Bibelquiz (iOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Das Bibelquiz (iOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE288023FACD16EC64F33285623080A7 /* Pods_Das_Bibelquiz__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Das_Bibelquiz__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75ABD81D75C82FB4FFA18C8F33583CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950722568F687875D69A988424FADAD4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F93F20EBD6DD61F72618FAF4C9BBA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7771B2DAD89ACA7159DAB770C387BC08 /* CoreTelephony.framework in Frameworks */,
+				4204DC331771989F80004FEAD8BA28E4 /* Foundation.framework in Frameworks */,
+				19DE1EC6ADBE7522A5EEFF7527DC35DE /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62EB8ACB4D3167F36AEDF5AEE0E1D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04E7EB0297B20BC0685FB09DFF73439 /* Cocoa.framework in Frameworks */,
+				B42150C21B0106FE612DC5929BD834F7 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44C08D1686B226533FDA16F8198D135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD7C307763974C9D636104C56DB58C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2D279246630A4AADBD7C97C1B08D1A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B144426F8A5EC21BF5AD712FAD5D366D /* CoreTelephony.framework */,
+				CC42A44E2D7AAED5635736291023AD4C /* Foundation.framework */,
+				A9EA3E26A1AEF56F90D3C76F6E63393C /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41E10E5801483E8C11B51DE7A8D59D8C /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F45C69E84A2FCD38C7D42B2B165C83DE /* Cocoa.framework */,
+				A51AF27DF8E05E139014572D77DE6315 /* SystemConfiguration.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		5D0AA215FB49F5F6E11902E9E88FDB66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3186861E708BBEE9EAD7D02BA5B84E6 /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A5EE3C552C38067BED0CF1D54D29124 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EFAD11EE9057C60BA64214559A0F241 /* ReachabilitySwift-iOS.modulemap */,
+				3D820365BBAFA155147224995B1F9CF3 /* ReachabilitySwift-iOS-dummy.m */,
+				EACD90DDB7EB28811C8B7CEBAF4663F8 /* ReachabilitySwift-iOS-Info.plist */,
+				D7849E0051F959640B300CD14D256C4F /* ReachabilitySwift-iOS-prefix.pch */,
+				75B128BC437597FACAA65BFA98D6D509 /* ReachabilitySwift-iOS-umbrella.h */,
+				9ABA6DF45CD8BD4204737FA8DE396C3D /* ReachabilitySwift-iOS.debug.xcconfig */,
+				E69EF2944DC0E2F3FED6405F5A173FCA /* ReachabilitySwift-iOS.release.xcconfig */,
+				58C070367326C27ECE4A652D852DE797 /* ReachabilitySwift-macOS.modulemap */,
+				4D73E8F1636CE81EB0D5554C9AD683D6 /* ReachabilitySwift-macOS-dummy.m */,
+				434E81B1AFB9AC6F91F7FBA60A336986 /* ReachabilitySwift-macOS-Info.plist */,
+				4653E92F08AF6A92C97CF89E1AF36FEE /* ReachabilitySwift-macOS-prefix.pch */,
+				F8935D4B4527B9E5433F113F23FF9F00 /* ReachabilitySwift-macOS-umbrella.h */,
+				1045FC01ABAD5535B4505ACFFD613B8A /* ReachabilitySwift-macOS.debug.xcconfig */,
+				8911262446E2F3F2AA9445045C60505B /* ReachabilitySwift-macOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift-iOS";
+			sourceTree = "<group>";
+		};
+		9CB316F25C28BDC37B472D5C20926643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98BD9F56975B8FE5BB50E5ABAD19DCC8 /* Pods-Das Bibelquiz (iOS) */,
+				FE288023FACD16EC64F33285623080A7 /* Pods_Das_Bibelquiz__macOS_.framework */,
+				4021FEA3C5E55F18620F45D36CB136F5 /* Reachability.framework */,
+				E29C73AEC8F75331F690F05A2BE3E540 /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A43B67255BD1F1E5633060C7D7EB39D1 /* Pods-Das Bibelquiz (macOS) */ = {
+			isa = PBXGroup;
+			children = (
+				9D92F1774F9893A5F88DFC64E6F55DF3 /* Pods-Das Bibelquiz (macOS).modulemap */,
+				22476E95EAA9CF0ED106BE728CA91B09 /* Pods-Das Bibelquiz (macOS)-acknowledgements.markdown */,
+				B3C6FACAC95F965700AF140EB257A921 /* Pods-Das Bibelquiz (macOS)-acknowledgements.plist */,
+				2566CDC7B40A312FF5BC85264AB88B4F /* Pods-Das Bibelquiz (macOS)-dummy.m */,
+				44CC04C51CDAD01A21D2F392BC526550 /* Pods-Das Bibelquiz (macOS)-frameworks.sh */,
+				76C7CE38C0E731056CCDC223BD5C614C /* Pods-Das Bibelquiz (macOS)-Info.plist */,
+				4667AE4988B35928901A0597002595A5 /* Pods-Das Bibelquiz (macOS)-umbrella.h */,
+				E2556CB60261BFC3D08A49BD758BA216 /* Pods-Das Bibelquiz (macOS).debug.xcconfig */,
+				6AE65072C573C6BA3614B65AF726B07A /* Pods-Das Bibelquiz (macOS).release.xcconfig */,
+			);
+			name = "Pods-Das Bibelquiz (macOS)";
+			path = "Target Support Files/Pods-Das Bibelquiz (macOS)";
+			sourceTree = "<group>";
+		};
+		CE6D0321514870053272597B10500F68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B2D279246630A4AADBD7C97C1B08D1A /* iOS */,
+				41E10E5801483E8C11B51DE7A8D59D8C /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CE6D0321514870053272597B10500F68 /* Frameworks */,
+				5D0AA215FB49F5F6E11902E9E88FDB66 /* Pods */,
+				9CB316F25C28BDC37B472D5C20926643 /* Products */,
+				F3780F5D059AE22A40CE032A6D3CDA04 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D46067F2F909EF6BAEE02E68888F8F68 /* Pods-Das Bibelquiz (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D8B8361889F537A4290E4C39AD8C5 /* Pods-Das Bibelquiz (iOS).modulemap */,
+				FA47CA381AE0F35E4899B9EF8AB71209 /* Pods-Das Bibelquiz (iOS)-acknowledgements.markdown */,
+				2AC0354E028AF32E7030D857EC289D29 /* Pods-Das Bibelquiz (iOS)-acknowledgements.plist */,
+				CA3197F6573E5CD9FCAE817807FF3AFA /* Pods-Das Bibelquiz (iOS)-dummy.m */,
+				47BC9D73E46328711B157621C085631C /* Pods-Das Bibelquiz (iOS)-frameworks.sh */,
+				E94B7D097D33C01BA1A11DEDC939832E /* Pods-Das Bibelquiz (iOS)-Info.plist */,
+				6F5E2ABFBD66E0C46ACD302DF00805E5 /* Pods-Das Bibelquiz (iOS)-umbrella.h */,
+				99AB573B9713A978360DDE11E08C87BB /* Pods-Das Bibelquiz (iOS).debug.xcconfig */,
+				200C9C1FF819E09BC23D8FC2A174EE73 /* Pods-Das Bibelquiz (iOS).release.xcconfig */,
+			);
+			name = "Pods-Das Bibelquiz (iOS)";
+			path = "Target Support Files/Pods-Das Bibelquiz (iOS)";
+			sourceTree = "<group>";
+		};
+		E3186861E708BBEE9EAD7D02BA5B84E6 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1EF316EEA49712E2C3ADCDD7FA65D /* Reachability.swift */,
+				9A5EE3C552C38067BED0CF1D54D29124 /* Support Files */,
+			);
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		F3780F5D059AE22A40CE032A6D3CDA04 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D46067F2F909EF6BAEE02E68888F8F68 /* Pods-Das Bibelquiz (iOS) */,
+				A43B67255BD1F1E5633060C7D7EB39D1 /* Pods-Das Bibelquiz (macOS) */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FFFB24B93704301F121160CE7F96E63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F383D93676BF6D79A9B52FAF94983E8 /* Pods-Das Bibelquiz (macOS)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B1489ED3AAFF0866F844626EA76947 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C1671307C71FD51E464E633C54485E /* ReachabilitySwift-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82634552C1A3C3A58CF93CE6F00257EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF60D2E3A1BD809E8E81774F3B97D103 /* ReachabilitySwift-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A162E67696289C2AAEE89D5F97A326F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A295ED658EF3EEB578A0A04E484CCE /* Pods-Das Bibelquiz (iOS)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32FFA409136C5F70F4528378AB60E7DD /* ReachabilitySwift-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8675859A077432878D3D51E5822184F /* Build configuration list for PBXNativeTarget "ReachabilitySwift-iOS" */;
+			buildPhases = (
+				82634552C1A3C3A58CF93CE6F00257EA /* Headers */,
+				E22D0CF16DC745B7C9CD2218D5645524 /* Sources */,
+				9F93F20EBD6DD61F72618FAF4C9BBA5B /* Frameworks */,
+				7B17D2452FA88855F191B27940E30970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReachabilitySwift-iOS";
+			productName = Reachability;
+			productReference = 4021FEA3C5E55F18620F45D36CB136F5 /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		526B90E7930815058B22918B90BCCC3D /* ReachabilitySwift-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1CC1183ABA1F867DBADC46B584E536 /* Build configuration list for PBXNativeTarget "ReachabilitySwift-macOS" */;
+			buildPhases = (
+				60B1489ED3AAFF0866F844626EA76947 /* Headers */,
+				FF7AB37F206F098AC71B848C1B801F98 /* Sources */,
+				A62EB8ACB4D3167F36AEDF5AEE0E1D16 /* Frameworks */,
+				312F51DEB3806F42072FBAC4C870FB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReachabilitySwift-macOS";
+			productName = Reachability;
+			productReference = E29C73AEC8F75331F690F05A2BE3E540 /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AE80DC0E699CB91C670C6E686EB8180 /* Pods-Das Bibelquiz (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAAB3C13D7F9846B427212E0F4D648C /* Build configuration list for PBXNativeTarget "Pods-Das Bibelquiz (macOS)" */;
+			buildPhases = (
+				0FFFB24B93704301F121160CE7F96E63 /* Headers */,
+				F1F1E267DC8CF4F1700004056F959D9D /* Sources */,
+				75ABD81D75C82FB4FFA18C8F33583CFB /* Frameworks */,
+				C579A5F72F34C2E6AD59E66C7C57BE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB1C4DBE80AEE87D704115AD1645235 /* PBXTargetDependency */,
+			);
+			name = "Pods-Das Bibelquiz (macOS)";
+			productName = Pods_Das_Bibelquiz__macOS_;
+			productReference = FE288023FACD16EC64F33285623080A7 /* Pods_Das_Bibelquiz__macOS_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE0B39A33BD5573BB2EFC69790AA06E3 /* Pods-Das Bibelquiz (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A39CCA7ED03D80449D6BBD96B6DBA3C /* Build configuration list for PBXNativeTarget "Pods-Das Bibelquiz (iOS)" */;
+			buildPhases = (
+				A162E67696289C2AAEE89D5F97A326F3 /* Headers */,
+				44EDED06F8263E87B4798A01704D21B4 /* Sources */,
+				D44C08D1686B226533FDA16F8198D135 /* Frameworks */,
+				386E261F39A5B047446E354019EE7B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353541FD55D80E5463CD8FA32FA35297 /* PBXTargetDependency */,
+			);
+			name = "Pods-Das Bibelquiz (iOS)";
+			productName = Pods_Das_Bibelquiz__iOS_;
+			productReference = 98BD9F56975B8FE5BB50E5ABAD19DCC8 /* Pods-Das Bibelquiz (iOS) */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9CB316F25C28BDC37B472D5C20926643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0B39A33BD5573BB2EFC69790AA06E3 /* Pods-Das Bibelquiz (iOS) */,
+				9AE80DC0E699CB91C670C6E686EB8180 /* Pods-Das Bibelquiz (macOS) */,
+				32FFA409136C5F70F4528378AB60E7DD /* ReachabilitySwift-iOS */,
+				526B90E7930815058B22918B90BCCC3D /* ReachabilitySwift-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		312F51DEB3806F42072FBAC4C870FB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386E261F39A5B047446E354019EE7B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B17D2452FA88855F191B27940E30970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C579A5F72F34C2E6AD59E66C7C57BE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44EDED06F8263E87B4798A01704D21B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2692429E12E6AA679A7766A493713C54 /* Pods-Das Bibelquiz (iOS)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22D0CF16DC745B7C9CD2218D5645524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5AB7AFFC9DA14DBAD745F7ABF5E129 /* Reachability.swift in Sources */,
+				4F6C074B7095E75C51B63A37E6031AD0 /* ReachabilitySwift-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F1E267DC8CF4F1700004056F959D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0BF9784B751B51CAD6D320A229E89F /* Pods-Das Bibelquiz (macOS)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7AB37F206F098AC71B848C1B801F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6D5CDBF1D9E24909FBE9C750CA297C /* Reachability.swift in Sources */,
+				7145D152C427B8C79132F69AF518E967 /* ReachabilitySwift-macOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AB1C4DBE80AEE87D704115AD1645235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReachabilitySwift-macOS";
+			target = 526B90E7930815058B22918B90BCCC3D /* ReachabilitySwift-macOS */;
+			targetProxy = ED5F9E8C54A6FE7906D1783423CC5E95 /* PBXContainerItemProxy */;
+		};
+		353541FD55D80E5463CD8FA32FA35297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReachabilitySwift-iOS";
+			target = 32FFA409136C5F70F4528378AB60E7DD /* ReachabilitySwift-iOS */;
+			targetProxy = 2D95AEE77936B13D0A6884E29ED8B286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075EEAFB790298DEF71E212B9FF20C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE65072C573C6BA3614B65AF726B07A /* Pods-Das Bibelquiz (macOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Das Bibelquiz (macOS)/Pods-Das Bibelquiz (macOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MODULEMAP_FILE = "Target Support Files/Pods-Das Bibelquiz (macOS)/Pods-Das Bibelquiz (macOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27329F792DFB4C646518E399AFA3FAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8911262446E2F3F2AA9445045C60505B /* ReachabilitySwift-macOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift-macOS/ReachabilitySwift-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift-macOS/ReachabilitySwift-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift-macOS/ReachabilitySwift-macOS.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		348E362DBACFFEDFD117F72CA66A7FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		47895E3AD3B709E53603BAEFCA09468B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69EF2944DC0E2F3FED6405F5A173FCA /* ReachabilitySwift-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift-iOS/ReachabilitySwift-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift-iOS/ReachabilitySwift-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift-iOS/ReachabilitySwift-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72FD892B7C99CFEE8ED0B185F8808D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2556CB60261BFC3D08A49BD758BA216 /* Pods-Das Bibelquiz (macOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Das Bibelquiz (macOS)/Pods-Das Bibelquiz (macOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MODULEMAP_FILE = "Target Support Files/Pods-Das Bibelquiz (macOS)/Pods-Das Bibelquiz (macOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79F87D82E49B1592D4D473A18CBFEED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99AB573B9713A978360DDE11E08C87BB /* Pods-Das Bibelquiz (iOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Das Bibelquiz (iOS)/Pods-Das Bibelquiz (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Das Bibelquiz (iOS)/Pods-Das Bibelquiz (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BD18C197D46A77CF7FF2C2DC31C99B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200C9C1FF819E09BC23D8FC2A174EE73 /* Pods-Das Bibelquiz (iOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Das Bibelquiz (iOS)/Pods-Das Bibelquiz (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Das Bibelquiz (iOS)/Pods-Das Bibelquiz (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		913956F9B5CC567F736CEFEEDFFAE29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B48937576B6EC8A45E1C97DF4987B6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABA6DF45CD8BD4204737FA8DE396C3D /* ReachabilitySwift-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift-iOS/ReachabilitySwift-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift-iOS/ReachabilitySwift-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift-iOS/ReachabilitySwift-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C458111B77ABF4C70A6A84AA2C20B5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1045FC01ABAD5535B4505ACFFD613B8A /* ReachabilitySwift-macOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift-macOS/ReachabilitySwift-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift-macOS/ReachabilitySwift-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift-macOS/ReachabilitySwift-macOS.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AAAB3C13D7F9846B427212E0F4D648C /* Build configuration list for PBXNativeTarget "Pods-Das Bibelquiz (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FD892B7C99CFEE8ED0B185F8808D49 /* Debug */,
+				075EEAFB790298DEF71E212B9FF20C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913956F9B5CC567F736CEFEEDFFAE29C /* Debug */,
+				348E362DBACFFEDFD117F72CA66A7FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A39CCA7ED03D80449D6BBD96B6DBA3C /* Build configuration list for PBXNativeTarget "Pods-Das Bibelquiz (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F87D82E49B1592D4D473A18CBFEED8 /* Debug */,
+				8BD18C197D46A77CF7FF2C2DC31C99B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1CC1183ABA1F867DBADC46B584E536 /* Build configuration list for PBXNativeTarget "ReachabilitySwift-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C458111B77ABF4C70A6A84AA2C20B5F4 /* Debug */,
+				27329F792DFB4C646518E399AFA3FAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8675859A077432878D3D51E5822184F /* Build configuration list for PBXNativeTarget "ReachabilitySwift-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48937576B6EC8A45E1C97DF4987B6DB /* Debug */,
+				47895E3AD3B709E53603BAEFCA09468B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
