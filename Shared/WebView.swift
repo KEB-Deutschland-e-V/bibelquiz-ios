@@ -49,8 +49,7 @@ struct WebView: UIViewRepresentable {
         webView.navigationDelegate = context.coordinator
         webView.customUserAgent = "bibelquiz-ios-app"
         webView.load(request)
-        webView.allowsBackForwardNavigationGestures = true
-        
+        webView.allowsBackForwardNavigationGestures = true 
     }
     
 }

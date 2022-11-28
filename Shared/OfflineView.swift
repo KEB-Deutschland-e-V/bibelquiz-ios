@@ -23,7 +23,6 @@ struct OfflineView: View {
             Button("Neu Laden") {
                 willMoveToNextScreen = true
             }
-            
             .font(.largeTitle)
         }
         .navigate(to: ContentView(), when: $willMoveToNextScreen)
